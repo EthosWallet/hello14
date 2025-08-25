@@ -1,0 +1,8 @@
+[package]
+name = "wildcard-utils"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+serde = "1.0"
+my_internal_rust_crate11111111111111111111111111111111111111 = "0.1.0"
