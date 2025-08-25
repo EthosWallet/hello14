@@ -1,0 +1,11 @@
+{
+  "name": "wildcard-test-root",
+  "version": "1.0.0",
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
