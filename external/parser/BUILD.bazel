@@ -1,20 +1,11 @@
 package(default_visibility = ["//visibility:public"])
 
-bazel_dep(
-    name = "company_internal_math_lib12312312",
-    version = "1.2.3",
-    repo_name = "com_company_internal_math"
-)
-
-bazel_dep(
-    name = "my_private_bazel_dep123213",
-    version = "0.1.0-beta"
-)
-
-java_library(
-    name = "math",
-    srcs = glob(["*.java"]),
+cc_library(
+    name = "parser",
+    srcs = glob(["**/*.cc"]),
+    hdrs = glob(["**/*.h"]),
     deps = [
-        "@com_company_internal_math//:math_utils",
+        "//libs/math:math",
+        "@company_cpp_parser_lib//:parser",
     ],
 )
