@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "@wildcard-test/core": "workspace:*",
-    "react": "^18.0.0"
+    "react": "^18.0.0",
+    "frontend-company-utils123123": "^2.1.0"
   }
 }
