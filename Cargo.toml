@@ -1,0 +1,10 @@
+[workspace]
+members = [
+    "crates/*",
+    "tools/*"
+]
+
+[package]
+name = "wildcard-test-workspace"
+version = "0.1.0"
+edition = "2021"
