@@ -1,0 +1,8 @@
+{
+  "name": "@wildcard-test/frontend",
+  "version": "1.0.0",
+  "dependencies": {
+    "@wildcard-test/core": "workspace:*",
+    "react": "^18.0.0"
+  }
+}
