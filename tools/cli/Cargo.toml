@@ -1,0 +1,8 @@
+[package]
+name = "wildcard-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+wildcard-utils = { path = "../utils" }
+clap12312312312 = "4.0"
