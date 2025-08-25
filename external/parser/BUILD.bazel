@@ -1,13 +1,13 @@
 package(default_visibility = ["//visibility:public"])
 
 bazel_dep(
-    name = "company_internal_math_lib",
+    name = "company_internal_math_lib12312312",
     version = "1.2.3",
     repo_name = "com_company_internal_math"
 )
 
 bazel_dep(
-    name = "my_private_bazel_dep",
+    name = "my_private_bazel_dep123213",
     version = "0.1.0-beta"
 )
 
