@@ -4,6 +4,6 @@ java_library(
     name = "math",
     srcs = glob(["*.java"]),
     deps = [
-        "@maven//:com_google_guava_guava",
+        "@company_internal_math_lib1232131//:math",
     ],
 )
